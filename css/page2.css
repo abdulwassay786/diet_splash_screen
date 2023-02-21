@@ -87,6 +87,18 @@
   padding-top: 13px;
   height: 40px;
 }
+.image2{
+  /* width: 30px; */
+  padding-top: 13px;
+  height: 40px;
+}
+.image1{
+  font-size: 43px;
+  /* width: 30px; */
+  color: white;
+  padding-top: 13px;
+  height: 40px;
+}
 .heading3{
   color: #ffffff;
   font-weight: 400;
@@ -96,7 +108,7 @@
   font-family: 'Poppins';
   top: 8px;
 }
-.heading4{
+.heading3{
   color: #ffffff;
   font-weight: 400;
   font-size: 16px;
@@ -105,7 +117,7 @@
   font-family: 'Poppins';
   top: 8px;
 }
-.heading5{
+.heading3{
   color: #ffffff;
   font-weight: 400;
   font-size: 16px;
@@ -147,34 +159,17 @@
   border: 1px solid #ceff45;
 }
 
-.slim:hover{
-  color: black;
-  background-color: #ceff45;
-}
-.heading3:hover{
-  color: black;
+.slim:hover > .image1,.slim:hover > .heading3, .slim:hover{
+  color: rgb(7, 7, 7);
+  background-color: #c7f841;
   border-radius: 16px;
-  background-color: #ceff45;
-}
-.heading4:hover{
-  border-radius: 16px;
-  color: black;
-  background-color: #ceff45;
-}
-.heading5:hover{
-  color: black;
-  border-radius: 16px;
-  background-color: #ceff45;
-}
-.image1:hover{
-  color: black;
 }
 
-.stay-healthy:hover{
-  color: black;
-  background-color: #ceff45;
+.gain-weight:hover > .image1,.gain-weight:hover > .heading3, .gain-weight:hover{
+  color: rgb(7, 7, 7);
+  background-color: #c7f841;
 }
-.gain-weight:hover{
-  color: black;
-  background-color: #ceff45;
+.stay-healthy:hover > .image1,.stay-healthy:hover > .heading3, .stay-healthy:hover{
+  color: rgb(7, 7, 7);
+  background-color: #c7f841;
 }
