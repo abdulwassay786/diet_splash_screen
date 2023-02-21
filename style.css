@@ -1,0 +1,54 @@
+/* Remove default margin */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.app{
+    width: 377px;
+    height: 555px;
+    border: 1px solid black;
+    margin: auto;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)),url(assets/images/bg_shades.png) no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+    position: relative;
+}
+nav{
+    height: 50px;
+    background-color: rgb(14, 14, 14);
+}
+.center{
+    text-align: center;
+    width: 377px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.center_2{
+}
+
+.center_2 h1{
+    color: #e3ff55;
+    font-size: 42px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.center_2 h2{
+    color: #ffffff;
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+
+}
+
+.center_2 img{
+    width: 50px;
+    height: 50px;
+}
+
