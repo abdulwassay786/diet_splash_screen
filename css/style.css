@@ -29,7 +29,7 @@
   border: 1px solid black;
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 150px auto;
+  margin: 0px auto;
 }
 
 .arrow {
@@ -249,4 +249,103 @@
     max-width: 100%;
     height: 100%;
   }
+}
+
+/* Modal */
+.modal {
+  display: none; /* Hide the modal by default */
+  position: fixed; /* Position the modal */
+  z-index: 1; /* Set the z-index */
+  left: 0;
+  top: 20%;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  /* background-color: rgba(0, 0, 0, 0.4); */
+}
+
+.modal-content {
+  background: linear-gradient(168.26deg, #3E3C3C 43.61%, #000000 91.4%);
+border-radius: 0px 80px 0px 30px;
+  margin: 0 auto; /* 15% from the top and centered */
+  padding: 20px;
+  width: 260px; /* Could be more or less, depending on screen size */
+  height: 270px;
+  position: relative; /* Needed for the animation */
+  top: -50px; /* Start off the screen */
+  opacity: 0; /* Start with opacity 0 */
+  transition: top 0.3s ease, opacity 0.3s ease; /* Add the transition */
+  border: 2px solid #ceff45;
+}
+
+.modal-content.show {
+  top: 0; /* Move to the center of the screen */
+  opacity: 1; /* Set opacity to 1 */
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.gender_1{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  font-family: 'Poppins';
+  color: #ffffff;
+}
+
+.gender_2{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  font-family: 'Poppins';
+  color: #ffffff;
+}
+
+.modal_male {
+  color: #ceff45;
+  font-size: 75px;
+  font-weight: 600;
+
+}
+
+.select_gender{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 60px;
+}
+
+
+.save-des {
+  border: 2px solid #ceff45;
+  background: none;
+  width: 135px;
+  font-family: 'Poppins';
+  border-radius: 11px;
+  word-spacing: 20%;
+  color: #ceff45;
+  height: 46px;
+}
+
+.save-des:hover {
+  background-color: #ceff45;
+  color: black;
+}
+
+.save {
+  padding-top: 10px;
 }
